@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yourEquation"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivCapturedImage"
+            android:layout_width="fill_parent"
+            android:layout_height="150dip"
+            android:contentDescription="@string/capturedImageContentDescription" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decodedEquation"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDecodedText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="15dip"
+            android:weightSum="100" >
+
+            <Button
+                android:id="@+id/bRecaptureImage"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_weight="50"
+                android:text="@string/recapture"
+                android:drawableLeft="@drawable/camera">
+            </Button>
+
+            <Button
+                android:id="@+id/bEditDecodedText"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_weight="50"
+                android:text="@string/edit"
+                android:drawableLeft="@drawable/edit_item">
+            </Button>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bSolveThisEquation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/solve"
+            android:drawableTop="@drawable/accept_item" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

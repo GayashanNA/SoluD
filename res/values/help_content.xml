@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="help">SoluD allows you to solve differential equations using your android mobile device.</string>
+    <string name="help_q_1">What kind of differential equations can SoluD solve?</string>
+    <string name="help_a_1">It can solve many types of differential equations including, Linear differential equations with initial conditions, Linear differential equations without initial conditions, Non-linear differential equations, Inhomogeneous differential equations and Parametric differential equations.</string>
+    <string name="help_q_2">Do i need an Internet connection to retrieve solutions?</string>
+    <string name="help_a_2">Yes. The application requires an active Internet connection to acquire the solutions.</string>
+    <string name="help_q_3">What is OCR?</string>
+    <string name="help_a_3">OCR means Optical Character Recognition.</string>
+    <string name="help_q_4">How can I edit an equation after it has been decoded by OCR process?</string>
+    <string name="help_a_4">Press the "Edit manually" button to open the edit User Interface.</string>
+    <string name="help_q_5">I get an error saying "failed to retrieve Image(s)?"</string>
+    <string name="help_a_5">This can happen due to two reasons. Either your solution was not retrieved or the retrieved solution has no graph images. This is the nature of the solution, not a bug.</string>
+    <string name="help_q_6">How can I enlarge the images?</string>
+    <string name="help_a_6">You can tap on an image for it to be displayed on a separate dialog box.</string>
+    <string name="help_q_7">Text processed by OCR is incorrect/partially correct sometimes.</string>
+    <string name="help_a_7">OCR functionality is still under the Beta development stage. Please manually type in the equation or edit the processed text in case of a failure.</string>
+
+</resources>

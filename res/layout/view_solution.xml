@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/solutionStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inputInterpretation"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inputInterpret"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+
+        <ImageView
+            android:id="@+id/ivInputInterpret"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/inputInterpretImageContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/classification"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/classification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solutionText"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/solutionText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:textSize="20dip" />
+
+        <ImageView
+            android:id="@+id/ivSolution"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:contentDescription="@string/solutionImageContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solutionGraph"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivGraph"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/graphImageContentDescription" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/wolframCredit"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+</ScrollView>

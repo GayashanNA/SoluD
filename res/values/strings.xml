@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">SoluD - Differential Equations Solver</string>
+    <string name="insertEquation">Insert your equation:</string>
+    <string name="insertEquationHint">Insert your equation here.</string>
+    <string name="clear">Clear</string>
+    <string name="solve">Solve</string>
+    <string name="edit">Edit manually</string>
+    <string name="recapture">Re-capture</string>
+    <string name="backspace">Del</string>
+    <string name="decodedEquation">Decoded Equation:</string>
+    <string name="yourEquation">Your Equation:</string>
+    <string name="app_name">SoluD</string>
+    <string name="status">Solution status:</string>
+    <string name="inputInterpretation">Input interpretation:</string>
+    <string name="classification">ODE classification:</string>
+    <string name="solutionText">Differential equation solution:</string>
+    <string name="solutionGraph">Graphs of the solution:</string>
+    <string name="save">Save</string>
+    <string name="getGraphs">Acquire Graphs</string>
+    <string name="solution">Solution Details:</string>
+    <string name="wolframCredit">Powered by Wolfram Alpha Computational Knowledge Engine.</string>
+    <string name="y">y(t)</string>
+    <string name="y_first_order">y\'(t)</string>
+    <string name="y_second_order">y\"(t)</string>
+    <string name="x">x(t)</string>
+    <string name="x_first_order">x\'(t)</string>
+    <string name="x_second_order">x\"(t)</string>
+    <string name="t">t</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="equals">=</string>
+    <string name="open_para">(</string>
+    <string name="close_para">)</string>
+    <string name="to_the_power">^(</string>
+    <string name="sqrt">sqrt(</string>
+    <string name="e_to_the_power">e^(</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="sin">sin(</string>
+    <string name="cos">cos(</string>
+    <string name="tan">tan(</string>
+    <string name="squared">^2</string>
+    <string name="order">\'</string>
+    <string name="x_third_order">x\"\'(t)</string>
+    <string name="y_third_order">y\"\'(t)</string>
+    <string name="divide">/</string>
+    <string name="multiply">*</string>
+    <string name="comma">,</string>
+    
+    <string name="exitDialogMessage">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    
+    <string name="type_in">Insert your equation:</string>
+    <string name="help_title">Help | SoluD for android</string>
+    <string name="captured_equation">Capture-that-Equation beta</string>
+    <string name="about_solud">About | SoluD for android</string>
+    <string name="view_solution">Powered by Wolfram | Alpha</string>
+    
+	
+    <string name="openedImageContentDescription">This is the opened image.</string>
+    <string name="capturedImageContentDescription">This is the captured image.</string>
+    <string name="inputInterpretImageContentDescription">This is the input interpretation image.</string>
+    <string name="solutionImageContentDescription">This is the solution image.</string>
+    <string name="graphImageContentDescription">This is the graph image.</string>
+    
+</resources>
